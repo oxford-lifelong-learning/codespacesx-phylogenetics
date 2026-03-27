@@ -1,0 +1,67 @@
+{
+  "name": "Teaching Phylogenetics CodespacesX",
+  "image": "ghcr.io/oxford-lifelong-learning/codespacesx-phylogenetics:latest",
+  "containerEnv": {
+    // Override the default Jupyter Lab route to open a specific notebook on startup
+    "JUPYTER_LAB_ROUTE": "/jupyter/lab/tree/work/practical/practical.ipynb"
+  },
+  "remoteUser": "ubuntu",
+  "workspaceFolder": "/home/ubuntu",
+  "mounts": ["source=codespaces_work,target=/home/ubuntu/work,type=volume"],
+  "forwardPorts": [14500],
+  "portsAttributes": {
+    "8000": {
+      "protocol": "http",
+      "label": "welcome",
+      "visibility": "private",
+      "onAutoForward": "openBrowser"
+    },
+    "8080": {
+      "protocol": "http",
+      "visibility": "private",
+      "onAutoForward": "ignore"
+    },
+    "8888": {
+      "protocol": "http",
+      "label": "jupyter-server",
+      "visibility": "private",
+      "onAutoForward": "ignore"
+    },
+    "10001": {
+      "protocol": "http",
+      "visibility": "private",
+      "onAutoForward": "ignore"
+    },
+    "14500": {
+      "protocol": "http",
+      "label": "codespacesx",
+      "visibility": "private",
+      "onAutoForward": "ignore"
+    }
+  },
+  "overrideCommand": false,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cweijan.vscode-office",
+        "donjayamanne.githistory",
+        "ikuyadeu.r",
+        "ms-python.python", 
+        "ms-toolsai.jupyter", 
+        "ms-toolsai.jupyter-keymap", 
+        "ms-toolsai.jupyter-renderers", 
+        "quarto.quarto",
+        "REditorSupport.r", 
+        "REditorSupport.r-syntax"
+      ],
+      "settings": {
+        //"codespaces.openFiles": ["README.md"],
+        "jupyter.defaultKernel": "Python3",
+        "jupyter.jupyterServerType": "local",
+        "workbench.colorTheme": "Tomorrow Night Blue"
+      }
+    }
+  },
+  "postCreateCommand": "/opt/codespacesx/post-create.sh",
+  "postStartCommand": "/opt/codespacesx/post-start.sh"
+}

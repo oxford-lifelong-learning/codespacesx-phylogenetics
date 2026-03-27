@@ -1,0 +1,36 @@
+{
+  "name": "Teaching Phylogenetics CodespacesX",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".",
+    "args": {
+      "BUILDKIT_INLINE_CACHE": "0"
+    }
+  },
+  "remoteUser": "ubuntu",
+  "workspaceFolder": "/home/ubuntu",
+  "mounts": ["source=codespaces_work,target=/home/ubuntu/work,type=volume"],
+  "forwardPorts": [14500],
+  "overrideCommand": false,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cweijan.vscode-office",
+        "donjayamanne.githistory",
+        "ikuyadeu.r",
+        "ms-python.python", 
+        "ms-toolsai.jupyter", 
+        "ms-toolsai.jupyter-keymap", 
+        "ms-toolsai.jupyter-renderers", 
+        "quarto.quarto",
+        "REditorSupport.r", 
+        "REditorSupport.r-syntax"
+      ],
+      "settings": {
+        "jupyter.defaultKernel": "Python3",
+        "jupyter.jupyterServerType": "local",
+        "workbench.colorTheme": "Tomorrow Night Blue"
+      }
+    }
+  }
+}

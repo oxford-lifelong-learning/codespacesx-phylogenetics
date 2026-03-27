@@ -1,0 +1,6 @@
+{
+  "name": "beauti",
+  "command": ["beauti", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

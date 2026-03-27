@@ -1,0 +1,6 @@
+{
+  "name": "beast",
+  "command": ["beast", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

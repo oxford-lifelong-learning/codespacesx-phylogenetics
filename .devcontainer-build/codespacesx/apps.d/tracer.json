@@ -1,0 +1,6 @@
+{
+  "name": "tracer",
+  "command": ["tracer", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

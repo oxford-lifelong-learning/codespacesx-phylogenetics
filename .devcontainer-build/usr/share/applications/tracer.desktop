@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Tracer
+Exec=/usr/local/bin/tracer
+Icon=utilities-terminal
+Categories=Science;Biology;
+Terminal=false

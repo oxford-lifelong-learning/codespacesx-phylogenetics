@@ -1,0 +1,6 @@
+{
+  "name": "jalview",
+  "command": ["jalview", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "tempest",
+  "command": ["tempest", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

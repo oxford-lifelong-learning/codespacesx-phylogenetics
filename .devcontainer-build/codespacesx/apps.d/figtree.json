@@ -1,0 +1,6 @@
+{
+  "name": "figtree",
+  "command": ["figtree", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TempEst
+Exec=/usr/local/bin/tempest
+Icon=utilities-terminal
+Categories=Science;Biology;
+Terminal=false

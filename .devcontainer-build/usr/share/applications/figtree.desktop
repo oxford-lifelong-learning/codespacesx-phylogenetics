@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=FigTree
+Exec=/usr/local/bin/figtree
+Icon=utilities-terminal
+Categories=Science;Biology;
+Terminal=false

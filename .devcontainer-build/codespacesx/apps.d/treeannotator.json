@@ -1,0 +1,6 @@
+{
+  "name": "treeannotator",
+  "command": ["treeannotator", "{arg}"],
+  "arg_policy": "file",
+  "allowed_root": "/home/ubuntu"
+}

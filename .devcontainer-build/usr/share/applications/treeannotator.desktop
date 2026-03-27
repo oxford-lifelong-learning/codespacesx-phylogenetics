@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TreeAnnotator
+Exec=/usr/local/bin/treeannotator
+Icon=utilities-terminal
+Categories=Science;Biology;
+Terminal=false
