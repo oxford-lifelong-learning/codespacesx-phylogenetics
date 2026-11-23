@@ -2,15 +2,15 @@
 
 Practical session on GitHub Codespaces.
 
-## Running on GitHub Codespaces
+## Running on GitHub Codespaces (recommended)
 
 If you haven't already, sign up to `github.com`. In your web browser, navigate to `github.com/codepaces` and log in.
 
-Click `New codespace`, and under `Select a repository` type `oxford-lifelong-learning/codespacesx-phylogenetics`. Use the default options, including branch `main` and Machine Type `2-core`. Then click `Create codespace`.
+Click `New codespace`, and under `Select a repository` type `oxford-lifelong-learning/codespacesx-phylogenetics`. Use the default options, including branch `main` but ***change Machine Type to*** `4-core` which doubles the memory to 16GB. Then click `Create codespace`.
 
 Codespaces begins by building the Docker container to run the practical.
 
-## Running locally with Visual Studio Code
+## Running locally with Visual Studio Code (not recommended)
 
 Install the prerequisite software:
 - GitHub
